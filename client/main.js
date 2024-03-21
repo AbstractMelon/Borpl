@@ -1,6 +1,5 @@
-// client/main.js
+
 document.addEventListener('DOMContentLoaded', () => {
-    // Fetch mods from the server and display them
     fetchMods();
 });
 
@@ -9,7 +8,6 @@ async function fetchMods() {
         const response = await fetch('/mods');
         const mods = await response.json();
 
-        // Display mods in the UI
         displayMods(mods);
     } catch (error) {
         console.error('Error fetching mods:', error);
