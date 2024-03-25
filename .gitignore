@@ -87,3 +87,16 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# My Stuff
+
+# CLIENT
+client/node_modules/*
+client/node_modules/
+
+# SERVER
+server/node_modules/*
+server/node_modules/
+
+# DATABASE
+
